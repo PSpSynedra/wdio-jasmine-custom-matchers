@@ -1,4 +1,6 @@
 exports.config = {
+    // Uncomment the following line to make jasmine.addMatchers(...) work properly.
+    // injectGlobals: false,
     //
     // ====================
     // Runner Configuration
@@ -23,7 +25,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*Test.js'
     ],
     // Patterns to exclude.
     exclude: [
