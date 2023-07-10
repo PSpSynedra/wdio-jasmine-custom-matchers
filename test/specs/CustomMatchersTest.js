@@ -16,4 +16,8 @@ describe('expect utility', () => {
 		expect(customMatcher).toBeDefined();
 		expect(customMatcher).toBeInstanceOf(Function);
 	});
+
+	it('should use the custom matcher correctly.', () => {
+		expect(1).testMatcher();
+	});
 });
